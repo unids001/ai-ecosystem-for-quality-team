@@ -10,14 +10,14 @@ This mono-repo contains automated test frameworks and AI-powered tools for QA te
 
 | Module | Purpose | Tech Stack |
 |--------|---------|-----------|
-| **api-test-framework** | Lightweight API automation | Karate DSL, Java 17, JUnit 5 |
+| **api-test-framework** | Lightweight API automation | Karate 2.1.2, Java 21, JUnit 5 |
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Java 17+
+- Java 21+
 - Maven 3.8+
 
 ### Setup
@@ -43,24 +43,19 @@ ai-ecosystem-for-quality-team/
 └── api-test-framework/              (Module 1)
     ├── pom.xml                      (Module: Inherits from parent)
     └── src/test/
-        ├── java/runners/            (Test runner class)
+        ├── java/runners/
+        │   └── TestRunner.java      (JUnit test runner)
         └── resources/
             ├── karate-config.js     (Environment configs)
             └── features/            (Test scenarios)
-                ├── users/
-                └── posts/
+                └── orders/
+                    └── order-creation.feature
 ```
 
 ### Key Features
-✅ Lightweight & fast API testing  
+✅ Karate 2.1.2 with modern Runner API  
 ✅ Multi-environment support (dev, staging, prod)  
 ✅ Tag-based test filtering  
-✅ Parallel test execution  
-✅ Centralized dependency management  
-
----
-
-## 📝 Next Steps
-- Add sample feature files (users, posts)
-- Integrate CI/CD pipeline
-- Add AI-powered test generation tools
+✅ Parallel test execution (up to 5 threads)  
+✅ Centralized dependency management (Maven multi-module)  
+✅ HTML test reports
