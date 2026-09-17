@@ -1,1 +1,0 @@
-Feature: Creación de pedido de un plato típico
