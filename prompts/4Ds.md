@@ -39,13 +39,10 @@ El QC asume el control del proceso aplicando el framework de fluidez de IA y las
 
 ### **Validación, Manejo de Errores y Mentoría (** **Diligence** **)**
 
-* **La Intención:** Si surge una falla o error de sintaxis, en lugar de copiar todo el log de la consola, el QC aísla el problema exacto e investiga. Si requiere profundizar, utiliza a la IA como mentora.
-* **Prompt 4 (Diligencia ante errores):**
+* **La Intención:** Si requiere profundizar, utiliza a la IA como mentora.
 
-&gt; *"El test falló. Karate dice 'variable id not found'. ¿Cómo es la sintaxis correcta en Karate para extraer un valor de un response JSON y guardarlo en una variable?"*
+* **Prompt 4 (Mentoría y aprendizaje):**
 
-* **Prompt 5 (Mentoría y aprendizaje):**
+&gt; *"Ahora llévame por el camino que recorre Karate en la automatización de esta prueba API. Explícame paso a paso cómo trabaja Karate detrás de escena, desde el step del 'Given' hasta el 'Then'. Utiliza un lenguaje técnico progresivo. El objetivo es que yo sea capaz de explicarlo y sustentarlo."*
 
-&gt; *"Ahora llévame por el camino que recorre Karate en la automatización de esta prueba API. Explícame paso a paso cómo trabaja Karate detrás de escena, desde el step del 'Given' hasta el 'Then'. Utiliza un lenguaje técnico progresivo."*
-
-* **El Resultado:** CODA enseña la sintaxis adecuada y explica la arquitectura interna del framework, permitiendo que el QC eleve su nivel técnico en lugar de depender de una "caja negra"
+* **El Resultado:** CODA enseña la arquitectura interna del framework, permitiendo que el QC eleve su nivel técnico en lugar de depender de una "caja negra"
