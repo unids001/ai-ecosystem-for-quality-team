@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="0.481" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="0.587" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/Users/argenis.torres/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire/surefirebooter-20260917073902474_3.jar /Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire 2026-09-17T07-39-02_380-jvmRun1 surefire-20260917073902474_1tmp surefire_0-20260917073902474_2tmp"/>
+    <property name="sun.java.command" value="/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire/surefirebooter-20260917084332883_3.jar /Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire 2026-09-17T08-43-32_784-jvmRun1 surefire-20260917084332883_1tmp surefire_0-20260917084332883_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/test-classes:/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/classes:/Users/argenis.torres/.m2/repository/io/karatelabs/karate-core/2.1.2/karate-core-2.1.2.jar:/Users/argenis.torres/.m2/repository/io/karatelabs/karate-js/2.1.2/karate-js-2.1.2.jar:/Users/argenis.torres/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar:/Users/argenis.torres/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar:/Users/argenis.torres/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/Users/argenis.torres/.m2/repository/com/jayway/jsonpath/json-path/3.0.0/json-path-3.0.0.jar:/Users/argenis.torres/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6.3/httpclient5-5.6.3.jar:/Users/argenis.torres/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4.3/httpcore5-5.4.3.jar:/Users/argenis.torres/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4.3/httpcore5-h2-5.4.3.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-handler/4.2.16.Final/netty-handler-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-common/4.2.16.Final/netty-common-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-resolver/4.2.16.Final/netty-resolver-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-transport/4.2.16.Final/netty-transport-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-transport-native-unix-common/4.2.16.Final/netty-transport-native-unix-common-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-codec-base/4.2.16.Final/netty-codec-base-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-codec-http/4.2.16.Final/netty-codec-http-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/io/netty/netty-codec-compression/4.2.16.Final/netty-codec-compression-4.2.16.Final.jar:/Users/argenis.torres/.m2/repository/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar:/Users/argenis.torres/.m2/repository/de/siegmar/fastcsv/4.4.0/fastcsv-4.4.0.jar:/Users/argenis.torres/.m2/repository/org/thymeleaf/thymeleaf/3.1.5.RELEASE/thymeleaf-3.1.5.RELEASE.jar:/Users/argenis.torres/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/argenis.torres/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/argenis.torres/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/argenis.torres/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/argenis.torres/.m2/repository/info/picocli/picocli/4.7.7/picocli-4.7.7.jar:/Users/argenis.torres/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/argenis.torres/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/argenis.torres/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/argenis.torres/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/argenis.torres/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/argenis.torres/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/argenis.torres/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/argenis.torres/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/argenis.torres/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/argenis.torres/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/argenis.torres/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/argenis.torres/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/argenis.torres/.m2/repository/ch/qos/logback/logback-classic/1.4.1/logback-classic-1.4.1.jar:/Users/argenis.torres/.m2/repository/ch/qos/logback/logback-core/1.4.1/logback-core-1.4.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,9 +28,9 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="karate.options" value="--tags @smoke"/>
+    <property name="karate.options" value="--tags @getOrderItems"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire/surefirebooter-20260917073902474_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/surefire/surefirebooter-20260917084332883_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
     <property name="user.name" value="argenis.torres"/>
@@ -56,28 +56,47 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testAll" classname="runners.TestRunner" time="0.473">
+  <testcase name="testAll" classname="runners.TestRunner" time="0.576">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at runners.TestRunner.testAll(TestRunner.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
     <system-out><![CDATA[&amp#27;[90m---------------------------------------------------------&amp#27;[0m
-feature: &amp#27;[32mfeatures/orders/order-creation.feature&amp#27;[0m
-scenarios:  1 | passed:  1 | &amp#27;[32mpassed&amp#27;[0m | time: 0.1980
+feature: &amp#27;[31mfeatures/orders/order-items.feature&amp#27;[0m
+scenarios:  1 | passed:  0 | &amp#27;[31m1 failed&amp#27;[0m | time: 0.2500
 &amp#27;[90m=========================================================&amp#27;[0m
 
+&amp#27;[91m&amp#27;[1mfailed features:&amp#27;[0m
+  &amp#27;[31m/Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/test-classes/features/orders/order-items.feature&amp#27;[0m
+    - Consultar ítems de una orden existente
+      /Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/test-classes/features/orders/order-items.feature:11
+      &amp#27;[36mThen status 200&amp#27;[0m
+      &amp#27;[33mexpected status: 200, actual: 404&amp#27;[0m
+
 &amp#27;[36m============================================================&amp#27;[0m
-elapsed:   0.25s | threads:   5 | efficiency: 0.16
-features:    1 | passed:    1 | &amp#27;[92mall passed&amp#27;[0m
-scenarios:   1 | passed:    1 | &amp#27;[92mall passed&amp#27;[0m
+elapsed:   0.30s | threads:   5 | efficiency: 0.17
+features:    1 | passed:    0 | &amp#27;[91m&amp#27;[1m1 failed&amp#27;[0m
+scenarios:   1 | passed:    0 | &amp#27;[91m&amp#27;[1m1 failed&amp#27;[0m
 &amp#27;[36m------------------------------------------------------------&amp#27;[0m
 Karate 2.1.2 | HTML report:
 file:///Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-framework/target/karate-reports/karate-summary.html
-&amp#27;[92m================================================================================================================================&amp#27;[0m
+&amp#27;[91m&amp#27;[1m================================================================================================================================&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[07:39:03.067 [main] INFO  karate.runtime - using system property 'karate.options': --tags @smoke
-07:39:03.122 [main] INFO  karate.runtime - karate.options applied: tags=[@smoke]
-07:39:03.144 [main] INFO  karate.runtime - classpath:karate-config.js processed
-07:39:03.162 [main] INFO  karate.runtime - backed up existing output to: target/karate-reports_20260917_073903
-07:39:03.165 [main] INFO  karate.runtime - Parallel execution initialized: threadCount=5, semaphore permits=5
-07:39:03.209 [] INFO  karate.scenario - Running tests against: http://localhost:8080
-07:39:03.368 [] DEBUG karate.http - &amp#27;[1mrequest:&amp#27;[0m
+    <system-err><![CDATA[08:43:33.547 [main] INFO  karate.runtime - using system property 'karate.options': --tags @getOrderItems
+08:43:33.610 [main] INFO  karate.runtime - karate.options applied: tags=[@getOrderItems]
+08:43:33.632 [main] INFO  karate.runtime - classpath:karate-config.js processed
+08:43:33.652 [main] INFO  karate.runtime - backed up existing output to: target/karate-reports_20260917_084333
+08:43:33.655 [main] INFO  karate.runtime - Parallel execution initialized: threadCount=5, semaphore permits=5
+08:43:33.698 [] INFO  karate.scenario - Running tests against: http://localhost:8080
+08:43:33.890 [] DEBUG karate.http - &amp#27;[1mrequest:&amp#27;[0m
 &amp#27;[2m1 > &amp#27;[0m&amp#27;[36m&amp#27;[1mPOST&amp#27;[0m http://localhost:8080/api/restaurant/orders
 &amp#27;[2m1 > &amp#27;[0m&amp#27;[36mContent-Type&amp#27;[0m: application/json; charset=UTF-8
 &amp#27;[2m1 > &amp#27;[0m&amp#27;[36mHost&amp#27;[0m: localhost:8080
@@ -85,10 +104,24 @@ file:///Users/argenis.torres/Learning/ai-ecosystem-for-quality-team/api-test-fra
 &amp#27;[2m1 > &amp#27;[0m&amp#27;[36mConnection&amp#27;[0m: keep-alive
 &amp#27;[2m1 > &amp#27;[0m&amp#27;[36mUser-Agent&amp#27;[0m: Apache-HttpClient/5.6.3 (Java/23.0.1)
 
-07:39:03.379 [] DEBUG karate.http - &amp#27;[2mresponse time in milliseconds: 10&amp#27;[0m
+08:43:33.908 [] DEBUG karate.http - &amp#27;[2mresponse time in milliseconds: 16&amp#27;[0m
 &amp#27;[2m1 < &amp#27;[0m&amp#27;[32m200&amp#27;[0m &amp#27;[36mPOST&amp#27;[0m http://localhost:8080/api/restaurant/orders
 &amp#27;[2m1 < &amp#27;[0m&amp#27;[36mTransfer-Encoding&amp#27;[0m: chunked
 &amp#27;[2m1 < &amp#27;[0m&amp#27;[36mMatched-Stub-Id&amp#27;[0m: a03fecb4-fe9a-4fb8-89d6-a5d1e75ed507
+&amp#27;[2m1 < &amp#27;[0m&amp#27;[36mVary&amp#27;[0m: Origin
+&amp#27;[2m1 < &amp#27;[0m&amp#27;[36mContent-Type&amp#27;[0m: application/json
+
+08:43:33.915 [] DEBUG karate.http - &amp#27;[1mrequest:&amp#27;[0m
+&amp#27;[2m1 > &amp#27;[0m&amp#27;[36m&amp#27;[1mGET&amp#27;[0m http://localhost:8080/api/restaurant/orders/ERR-500/items
+&amp#27;[2m1 > &amp#27;[0m&amp#27;[36mContent-Type&amp#27;[0m: application/json
+&amp#27;[2m1 > &amp#27;[0m&amp#27;[36mHost&amp#27;[0m: localhost:8080
+&amp#27;[2m1 > &amp#27;[0m&amp#27;[36mConnection&amp#27;[0m: keep-alive
+&amp#27;[2m1 > &amp#27;[0m&amp#27;[36mUser-Agent&amp#27;[0m: Apache-HttpClient/5.6.3 (Java/23.0.1)
+
+08:43:33.922 [] DEBUG karate.http - &amp#27;[2mresponse time in milliseconds: 7&amp#27;[0m
+&amp#27;[2m1 < &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m &amp#27;[36mGET&amp#27;[0m http://localhost:8080/api/restaurant/orders/ERR-500/items
+&amp#27;[2m1 < &amp#27;[0m&amp#27;[36mTransfer-Encoding&amp#27;[0m: chunked
+&amp#27;[2m1 < &amp#27;[0m&amp#27;[36mMatched-Stub-Id&amp#27;[0m: 14a38176-7603-4e27-9b07-92a78c49fd5f
 &amp#27;[2m1 < &amp#27;[0m&amp#27;[36mVary&amp#27;[0m: Origin
 &amp#27;[2m1 < &amp#27;[0m&amp#27;[36mContent-Type&amp#27;[0m: application/json
 
