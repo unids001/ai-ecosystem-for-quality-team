@@ -31,6 +31,8 @@ mvn clean test
 
 # Run with specific environment
 mvn test -Dkarate.env=dev
+mvn test -Dkarate.env=staging
+mvn test -Dkarate.env=prod
 
 # Run by tags
 mvn test -Dkarate.options="--tags @smoke"

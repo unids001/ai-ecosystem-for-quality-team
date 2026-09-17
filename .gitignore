@@ -3,6 +3,7 @@
 
 # Maven/Java build output
 **/target/
+api-test-framework/target/
 
 # Logs
 *.log

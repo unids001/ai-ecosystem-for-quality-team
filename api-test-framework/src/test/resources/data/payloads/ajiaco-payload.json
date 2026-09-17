@@ -1,0 +1,18 @@
+{
+  "customer": {
+    "name": "Juan Garcia",
+    "phone": "3101234567",
+    "address": "Cra 7 #45-23, Bogota"
+  },
+  "items": [
+    {
+      "itemId": "AJIACO",
+      "name": "Ajiaco",
+      "quantity": 2,
+      "price": 15000
+    }
+  ],
+  "payment": {
+    "method": "CASH"
+  }
+}

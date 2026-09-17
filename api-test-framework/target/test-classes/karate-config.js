@@ -23,6 +23,12 @@ function fn() {
         config.timeout = 10000;
         config.logLevel = 'WARN';
     }
+    
+    // Configuración específica para API de restaurante
+    config.restaurantBaseUrl = env === 'dev' ? 'http://localhost:3000' : 'http://localhost:8080';
+    
+    // Storage global para order IDs entre tests
+    config.orderIds = {};
 
     karate.log('Running tests against: ' + config.baseUrl);
     return config;
