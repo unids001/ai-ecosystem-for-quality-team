@@ -17,7 +17,7 @@ This mono-repo contains automated test frameworks and AI-powered tools for QA te
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Java 21+
+- Java 17+
 - Maven 3.8+
 
 ### Setup

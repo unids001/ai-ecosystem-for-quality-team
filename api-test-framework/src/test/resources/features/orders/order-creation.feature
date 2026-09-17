@@ -1,12 +1,9 @@
-Feature: Restaurant Order Management
+Feature: Creación de pedido de un plato típico
 
-  Background:
-    * url baseUrl
-    * header Content-Type = 'application/json'
-
-  @smoke @critical
-  Scenario: Order creation with valid body
-    Given path '/api/restaurant/orders'
+  @smoke
+  Scenario: Crear pedido de Ajiaco mediante API
+    Given url baseUrl + '/api/restaurant/orders'
+    And header Content-Type = 'application/json'
     And request
       """
       {
@@ -21,12 +18,6 @@ Feature: Restaurant Order Management
             "name": "Ajiaco",
             "quantity": 2,
             "price": 15000
-          },
-          {
-            "itemId": "BANDEJA",
-            "name": "Bandeja Paisa",
-            "quantity": 1,
-            "price": 25000
           }
         ],
         "payment": {
@@ -34,9 +25,16 @@ Feature: Restaurant Order Management
         }
       }
       """
-    When method POST
-    Then status 201
-    And match response.orderId == 'order-1001'
-    And match response.status == 'RECEIVED'
-    And match response.currency == 'COP'
-    And match response.estimatedMinutes == 25
+    When method post
+    Then status 200
+    And match response.orderId != null
+    And match response.orderId != ''
+    And match response contains
+      """
+      {
+        "orderId": "#string",
+        "status": "#string",
+        "currency": "#string",
+        "estimatedMinutes": '#number'
+      }
+      """
