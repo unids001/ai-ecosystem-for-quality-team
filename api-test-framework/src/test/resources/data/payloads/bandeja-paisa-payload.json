@@ -1,0 +1,18 @@
+{
+  "customer": {
+    "name": "Maria Rodriguez",
+    "phone": "3209876543",
+    "address": "Calle 10 #20-30, Medellin"
+  },
+  "items": [
+    {
+      "itemId": "BANDEJA_PAISA",
+      "name": "Bandeja Paisa",
+      "quantity": 1,
+      "price": 28000
+    }
+  ],
+  "payment": {
+    "method": "CASH"
+  }
+}

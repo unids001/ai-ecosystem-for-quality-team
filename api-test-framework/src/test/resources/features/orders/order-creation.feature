@@ -5,15 +5,14 @@ Feature: Creación de pedidos de platos típicos colombianos
     * url restaurantBaseUrl
     * header Content-Type = 'application/json'
     * configure retry = { count: 3, interval: 2000 }
-    * def storage = read('classpath:data/storage/order-id-storage.js')
 
   @smoke
-  Scenario: Creación exitosa de pedido de Ajiaco
+  Scenario: Creación exitosa de pedido de Bandeja Paisa
     Given path 'api/restaurant/orders'
-    And request read('classpath:data/payloads/ajiaco-payload.json')
+    And request read('classpath:data/payloads/bandeja-paisa-payload.json')
     When method post
     # Validaciones Nivel 1: Status code y response básico
-    Then status 200
+    Then status 201
     And assert response != null
     # Validaciones Nivel 2: Schema validation - estructura y tipos de datos
     And match response == { orderId: '#string', status: '#string', currency: '#string', estimatedMinutes: '#number' }
@@ -32,4 +31,4 @@ Feature: Creación de pedidos de platos típicos colombianos
     * print 'Tiempo estimado:', response.estimatedMinutes, 'minutos'
     
     # Persistir el orderId para consultas futuras
-    * call storage.saveOrderId(response.orderId)
+    * karate.set('orderId', response.orderId)
